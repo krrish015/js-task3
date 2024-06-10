@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function changedata()
+        {
+            document.getElementById('input').value;
+            document.getElementById('demo').style.backgroundColor="brown";
+        }
+        let result = document.getelementById("gfg")
+        function changecolor(color) 
+        {
+            document.body.style.background = color;
+        }
+        function myfunc() 
+        {
+            changecolor('yellow');
+
+        }
+    </script>
+</head>
+<body style="text-align: center;">
+    <h1 style="color: red;">
+        hello! welcome
+    </h1>
+    <h3> entri elevate learning</h3>
+    <button onclick="myfunc()">
+        click
+    </button>
+    <h2 id="gfg" style="color: yellow;"></h2></body>
+    <body id="demo">
+        <input type="text" id="input" onchange="changedata()">
+</body>
+</html> 
